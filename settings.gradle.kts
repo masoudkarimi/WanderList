@@ -13,7 +13,9 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Wander List"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+rootProject.name = "WanderList"
 include(":app")
 include(":data:model")
 include(":data:core")
+include(":data:user")
