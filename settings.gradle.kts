@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Wander List"
 include(":app")
 include(":data:model")
+include(":data:core")
