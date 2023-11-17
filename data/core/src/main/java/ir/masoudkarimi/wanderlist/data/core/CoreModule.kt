@@ -16,6 +16,6 @@ internal class CoreModule {
   fun provideCoroutineDispatchers(): CoroutineDispatchers = DefaultCoroutineDispatchers(
     io = Dispatchers.IO,
     main = Dispatchers.Main,
-    default = Dispatchers.Main,
+    default = Dispatchers.Default,
   )
 }
