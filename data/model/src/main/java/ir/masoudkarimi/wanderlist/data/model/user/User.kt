@@ -8,6 +8,6 @@ import ir.masoudkarimi.wanderlist.data.model.values.Username
 data class User(
   val id: Id,
   val name: Name,
-  val email: Username,
+  val username: Username,
   val password: Password,
 )
