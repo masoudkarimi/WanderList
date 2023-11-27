@@ -13,7 +13,7 @@ internal class CoreModule {
 
   @Singleton
   @Provides
-  fun provideCoroutineDispatchers(): CoroutineDispatchers = DefaultCoroutineDispatchers(
+  internal fun provideCoroutineDispatchers(): CoroutineDispatchers = DefaultCoroutineDispatchers(
     io = Dispatchers.IO,
     main = Dispatchers.Main,
     default = Dispatchers.Default,
