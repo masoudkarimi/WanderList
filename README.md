@@ -17,5 +17,7 @@ The WanderList project utilizes the following technologies:
 - **Jetpack Compose:** Modern Android UI toolkit for building native UIs.
 - **Room Persistence Library:** For local data storage and retrieval.
 - **[Spotless][spotless] Plugin for Gradle:** Code formatter and analyzer to maintain code style.
+- **[Turbine][turbine]** A small testing library for kotlinx.coroutines Flow
 
 [spotless]: https://github.com/diffplug/spotless/blob/main/plugin-gradle/README.md#-spotless-plugin-for-gradle
+[turbine]: https://github.com/cashapp/turbine

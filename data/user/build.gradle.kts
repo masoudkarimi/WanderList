@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-  namespace = "ir.masoudkarimi.wanderlist.data.core"
+  namespace = "ir.masoudkarimi.wanderlist.data.user"
   compileSdk = 34
 
   defaultConfig {
@@ -36,11 +36,16 @@ android {
 }
 
 dependencies {
-  implementation(libs.coroutines.core)
-  implementation(libs.datastore.preferences)
+  implementation(projects.data.model)
+  implementation(projects.data.core)
+
   implementation(libs.hilt.android)
   kapt(libs.hilt.android.compiler)
+  implementation(libs.datastore.preferences)
+  implementation(libs.core.ktx)
+  implementation(libs.appcompat)
+  implementation(libs.material)
   testImplementation(libs.junit)
-  androidTestImplementation(libs.androidx.test.ext.junit)
-  androidTestImplementation(libs.espresso.core)
+  testImplementation(libs.turbine)
+  testImplementation(libs.kotlinx.coroutines.test)
 }
