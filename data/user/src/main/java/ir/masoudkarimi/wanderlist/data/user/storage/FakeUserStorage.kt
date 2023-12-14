@@ -1,6 +1,5 @@
 package ir.masoudkarimi.wanderlist.data.user.storage
 
-
 import ir.masoudkarimi.wanderlist.data.model.user.User
 import ir.masoudkarimi.wanderlist.data.model.values.Id
 import ir.masoudkarimi.wanderlist.data.model.values.Name
