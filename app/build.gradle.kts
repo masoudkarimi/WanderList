@@ -1,7 +1,7 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
   alias(libs.plugins.com.android.application)
-  alias(libs.plugins.org.jetbrains.kotlin.android)
+  alias(libs.plugins.kotlin.android)
   kotlin("kapt")
   alias(libs.plugins.hilt.android)
 }
@@ -43,7 +43,7 @@ android {
     compose = true
   }
   composeOptions {
-    kotlinCompilerExtensionVersion = "1.4.3"
+    kotlinCompilerExtensionVersion = "1.5.7"
   }
   packaging {
     resources {
